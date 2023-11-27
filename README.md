@@ -41,7 +41,8 @@ Once you've set up SQL we need to register PHP from within IIS, to do so we run 
   enable php_imap.dll
   enable php_intl.dll
   enable php_opcache.dll
-Once that's complete refresh the webpage. Before pressing continue go to your osTicket folder>include and find a file named "ost-sammpleconfig.php" rename this file to "ost-config.php" if you don't do this step when you hit continue you'll get a Configuration file missing page! Looks like this ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/75fdbcc5-7593-43b6-9af8-ab6243557634)
+Once that's complete refresh the webpage. Before pressing continue go to your osTicket folder>include and find a file named "ost-sammpleconfig.php" rename this file to "ost-config.php" if you don't do this step when you hit continue you'll get a Configuration file missing page! Looks like this ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/3e33ee1f-ee87-4fa7-b327-1571f14ed500)
+
 
  
 
