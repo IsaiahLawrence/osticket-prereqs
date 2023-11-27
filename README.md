@@ -50,6 +50,8 @@ Once that's complete refresh the webpage. Before pressing continue go to your os
 <br />
 
 <p>
+  ![image](https://github.com/IsaiahLawrence/osticket-prereqs/blob/main/assets/152194351/ba1d16e9-7f31-442c-ae09-05d84a6d1720)
+
 </p>
 <p>
 <br />
