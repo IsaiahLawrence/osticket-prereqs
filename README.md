@@ -14,16 +14,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> (22H2)
 
 <h2>List of Prerequisites</h2>
 
 - Install and enable IIS (Internet Information Services) this allows the computer to provide the osTicket website. *IIS is found in control panel under programs.
-- ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/1f2e2092-1793-4d90-93ac-e313bed86466)
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/1f2e2092-1793-4d90-93ac-e313bed86466) You'll also turn on CGI found in the World Wide Web Services>Application Development Features>CGI
+- After Installing IIS to ensure you've installed it correctly enter your loopback address(127.0.0.1) into the URL you should see a webpage like so; ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/4a2ff9a8-9f73-4d6f-bf1b-8f213dbd423d) 
+
+- We'll then install PHP manager, rewrirte module, C++redist file, MySQL, and SQL database. All those files will be found on osTicket page.
 
 <h2>Installation Steps</h2>
 
