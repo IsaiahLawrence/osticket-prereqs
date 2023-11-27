@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - When we download our PHP 7.3.8 we need to make a new folder in our C drive and name it PHP we'll then unzip the contents into that folder.
 
-<p> Once MYSQL is downloaded set it up using the Typical option then Standard Configuration ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/46b40c3b-6167-4025-9508-0d552bd79a4a) 
+<p> Once MYSQL is downloaded set it up using the Typical option then Standard Configuration  C:\Users\ZayDa\Downloads\MySQL standard.png
 Set your password and continue on. SQL is needed to use osTicket to store all the data such as users,tickets,etc..
 
 Once you've set up SQL we need to register PHP from within IIS, to do so we run IIS as admin do this by pressing the window key typing IIS rightclick IIS and run as admin. You should see this window ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/502ee916-9afb-44eb-8454-702c75de4ea1) Click PHP Manager and Register new PHP version inside our PHP folder(the folder we created earlier on our C drive) we should have CGI application in there. Restart IIS and now we can install osTicket.
