@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - When we download our PHP 7.3.8 we need to make a new folder in our C drive and name it PHP we'll then unzip the contents into that folder.
 
-<p> Once MYSQL is downloaded set it up using the Typical option then Standard Configuration ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/076e391a-0062-48ef-a23c-6ac1ab49dfbb)
+<p> Once MYSQL is downloaded set it up using the Typical option then Standard Configuration
 
 Set your password and continue on. SQL is needed to use osTicket to store all the data such as users,tickets,etc..
 
