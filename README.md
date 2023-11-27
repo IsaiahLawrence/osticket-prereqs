@@ -51,7 +51,7 @@ Once that's complete refresh the webpage. Before pressing continue go to your os
 <h3>Setting Up HeidiSQL</h3>
 <p>Now we need to setup Heidi this allows us to connect to the SQL server we'll follow the pop up instructions.  </p>
  
-<p> <img src="https://i.imgur.com/4HTvC7V.png" alt="osTicket logo"/>  We'll click new at the bottom left and enter the password we made when we installed SQL earlier. If done correctly we will be inside HeidiSQL <img src="https://i.imgur.com/moeP6YX.png" alt="osTicket logo"/>from here we can create our database "osTicket" in HeidiSQL do this by right clicking under test and create new database. Then we return to our osTicket installer fillout the database settings SQL database name is osTicket and our username is root and enter the same password you use when setting up SQL.</p>
+<p> <img src="https://i.imgur.com/4HTvC7V.png" alt="osTicket logo"/>  We'll click new at the bottom left and enter the password we made when we installed SQL earlier. If done correctly we will be inside HeidiSQL <img src="https://i.imgur.com/moeP6YX.png" alt="osTicket logo"/>from here we can create our database "osTicket" in HeidiSQL do this by right clicking under test and create new database. Then we return to our osTicket installer fillout the database settings SQL database name is osTicket and our username is root and enter the same password you used when setting up SQL.</p>
 <br />
 <p> osTicket is now installed you should see <img src="https://i.imgur.com/spCmrA1.png" alt="osTicket logo"/>" all that's left to do is return to your wwwrootfolder>osTicket folder and delete the setup folder found inside.
 
