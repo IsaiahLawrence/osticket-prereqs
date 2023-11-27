@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket v1.15.8.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/1f2e2092-1793-4d90-93ac-e313bed86466) You'll also turn on CGI found in the World Wide Web Services>Application Development Features>CGI
 - After Installing IIS to ensure you've installed it correctly enter your loopback address(127.0.0.1) into the URL you should see a webpage like so ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/4a2ff9a8-9f73-4d6f-bf1b-8f213dbd423d) 
 
-- We'll then install PHP manager, rewrite module, C++redist file, MySQL. All those files will be found on osTicket page.
+- We'll then install PHP manager, rewrite module, C++redist file, MySQL. All those files will be found on osTicket webpage.
 
 - When we download our PHP 7.3.8 we need to make a new folder in our C drive and name it PHP we'll then unzip the contents into that folder.
 
@@ -35,18 +35,18 @@ Once you've set up SQL we need to register PHP from within IIS, to do so we run 
 </p> Once we download osTicket it'll be in a zipfile we want to click into it and take that upload folder copy and extract it to our wwwroot folder. This is found in C drive>inetpub>wwwroot 
 <p> Rename that upload folder to osTicket. Then restart IIS.</p> 
 
-<h2>Seeting Up osTicket</h2>
+<h2>Setting Up osTicket</h2>
     
-<p> From the left drop down go to sites, deafault web site, osTicket  <img src="https://i.imgur.com/Ov7Zjm4.png" alt="osTicket logo"/> on the right side you'll see Browse*.80.
+<p> From the left drop down in IIS go to sites, deafault web site, osTicket  <img src="https://i.imgur.com/Ov7Zjm4.png" alt="osTicket logo"/> on the right side you'll see Browse*.80.
   
   When you click that it should bring you to the osTicket installer. ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/03d0eb69-561f-48eb-8d7c-17cb47858555)
 </p>
 
-<p>  You'll notice that the website reccomends we turn on some features, to turn those on we'll go back to IIS and go into our PHP manager scroll down to PHP Extensions click enable or disable extensions and we'll
-  enable php_imap.dll
-  enable php_intl.dll
-  enable php_opcache.dll
-Once that's complete refresh the webpage. Before pressing continue go to your osTicket folder>include and find a file named "ost-sammpleconfig.php" rename this file to "ost-config.php" if you don't do this step when you hit continue you'll get a Configuration file missing page! </p>
+<p>  You'll notice that the website recommends we turn on some features, to turn those on we'll go back to IIS and go into our PHP manager scroll down to PHP Extensions click enable or disable extensions and we'll
+  -enable php_imap.dll
+  -enable php_intl.dll
+  -enable php_opcache.dll
+Once that's complete refresh the webpage. Before pressing continue go to your osTicket folder>include and find a file named "ost-sammpleconfig.php" rename this file to "ost-config.php" if you don't do this step when you press continue you'll get a Configuration file missing page! </p>
 
 <h3>Setting Up HeidiSQL</h3>
 <p>Now we need to setup Heidi this allows us to connect to the SQL server we'll follow the pop up instructions.  </p>
