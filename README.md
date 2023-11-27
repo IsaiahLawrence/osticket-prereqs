@@ -33,7 +33,8 @@ Set your password and continue on. SQL is needed to use osTicket to store all th
 Once you've set up SQL we need to register PHP from within IIS, to do so we run IIS as admin do this by pressing the window key typing IIS rightclick IIS and run as admin. You should see this window ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/502ee916-9afb-44eb-8454-702c75de4ea1) Click PHP Manager and Register new PHP version inside our PHP folder(the folder we created earlier on our C drive) we should have CGI application in there. Restart IIS and now we can install osTicket.
 
 </p> Once we download osTicket it'll be in a zipfile we want to click into it and take that upload folder copy and extract it to our wwwroot folder. This is found in C drive>inetpub>wwwroot 
-<p>![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/cd6e578e-fa82-4192-9e28-0b92ef0de01d) should look like so. Rename that upload folder to osTicket. Then restart IIS. From the left drop down go to sites, deafault web site, osTicket ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/5abd80cd-0f3d-4b8d-8e93-f3772432ca66) on the right side you'll see Browse*.80.
+<p>![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/9cfaf900-f759-4bc1-8738-9fe59061df28)
+ should look like so. Rename that upload folder to osTicket. Then restart IIS. From the left drop down go to sites, deafault web site, osTicket ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/5abd80cd-0f3d-4b8d-8e93-f3772432ca66) on the right side you'll see Browse*.80.
   
   When you click that it should bring you to the osTicket installer. ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/03d0eb69-561f-48eb-8d7c-17cb47858555)
 </p>
