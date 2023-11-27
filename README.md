@@ -35,6 +35,8 @@ Once you've set up SQL we need to register PHP from within IIS, to do so we run 
 </p> Once we download osTicket it'll be in a zipfile we want to click into it and take that upload folder copy and extract it to our wwwroot folder. This is found in C drive>inetpub>wwwroot 
 <p> Rename that upload folder to osTicket. Then restart IIS.</p> 
 
+<h2>Seeting Up osTicket</h2>
+    
 <p> From the left drop down go to sites, deafault web site, osTicket  <img src="https://i.imgur.com/Ov7Zjm4.png" alt="osTicket logo"/> on the right side you'll see Browse*.80.
   
   When you click that it should bring you to the osTicket installer. ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/03d0eb69-561f-48eb-8d7c-17cb47858555)
