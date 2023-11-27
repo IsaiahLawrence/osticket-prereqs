@@ -44,7 +44,8 @@ Once you've set up SQL we need to register PHP from within IIS, to do so we run 
 Once that's complete refresh the webpage. Before pressing continue go to your osTicket folder>include and find a file named "ost-sammpleconfig.php" rename this file to "ost-config.php" if you don't do this step when you hit continue you'll get a Configuration file missing page! Looks like this 
 ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/ba1d16e9-7f31-442c-ae09-05d84a6d1720) 
 
-If installed correctly we will see a page like so ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/c354d85a-9575-405a-9116-6ddcec52c173) </p>
+If installed correctly we will see a page like so  ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/2501b798-9c8c-4136-ac3b-4d82dd3708de)
+ </p>
 
 <p> Fill this page out with your info until you get to database settings, here we'll install HeidiSQL after installing it we'll get to a window that looks like this. ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/a63b16b9-c37e-4432-8179-3d1c37963427) We'll click new at the bottom left and enter the password we made when we installed SQL earlier. If done correctly we will be inside HeidiSQL ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/5c49d495-9206-4a0a-8d9c-892d45df222b) from here we can create our database "osTicket" in HeidiSQL do this by right clicking under test and create new database. Then we return to our osTicket installer fillout the database settings SQLdata base is osTicket and our username is root and enter the same password you use when setting up SQL.</p>
 <br />
