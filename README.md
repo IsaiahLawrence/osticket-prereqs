@@ -51,11 +51,7 @@ Once that's complete refresh the webpage. Before pressing continue go to your os
 <h3>Setting Up HeidiSQL</h3>
 <p>Now we need to setup Heidi this allows us to connect to the SQL server we'll follow the pop up instructions.  </p>
  
-
-<p>If installed correctly we will see a page like so  ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/2501b798-9c8c-4136-ac3b-4d82dd3708de)
-</p> 
-
-<p> Fill this page out with your info until you get to database settings, here we'll install HeidiSQL after installing it we'll get to a window that looks like this. ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/a63b16b9-c37e-4432-8179-3d1c37963427) We'll click new at the bottom left and enter the password we made when we installed SQL earlier. If done correctly we will be inside HeidiSQL ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/5c49d495-9206-4a0a-8d9c-892d45df222b) from here we can create our database "osTicket" in HeidiSQL do this by right clicking under test and create new database. Then we return to our osTicket installer fillout the database settings SQLdata base is osTicket and our username is root and enter the same password you use when setting up SQL.</p>
+<p>  ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/a63b16b9-c37e-4432-8179-3d1c37963427) We'll click new at the bottom left and enter the password we made when we installed SQL earlier. If done correctly we will be inside HeidiSQL ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/5c49d495-9206-4a0a-8d9c-892d45df222b) from here we can create our database "osTicket" in HeidiSQL do this by right clicking under test and create new database. Then we return to our osTicket installer fillout the database settings SQLdata base is osTicket and our username is root and enter the same password you use when setting up SQL.</p>
 <br />
 <p> osTicket is now installed you should see ![image](https://github.com/IsaiahLawrence/osticket-prereqs/assets/152194351/a538ce96-7e8b-4c93-be0a-fcb214f067cb) all that's left to do is return to your wwwrootfolder>osTicket folder and delete the setup folder found inside.
 
